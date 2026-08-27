@@ -1,21 +1,11 @@
 package com.order_update_service.model;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Pattern;
-import jakarta.validation.constraints.Positive;
 
 public class OrderEvent {
 
-    @NotBlank
     private String eventId;
-
-    @NotBlank
     private String symbol;
-
-    @Pattern(regexp = "BUY|SELL")
     private String transactionType;
-
-    @Positive
     private Long quantity;
 
     public OrderEvent(String eventId, String symbol, String transactionType, Long quantity) {

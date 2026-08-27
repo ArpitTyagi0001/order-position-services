@@ -1,0 +1,9 @@
+event_id,symbol,transaction_type,quantity
+evt-0001,RELIANCE,BUY,90
+evt-0002,TCS,SELL,75
+evt-0003,RELIANCE,SELL,30
+evt-0002,TCS,BUY,50
+evt-0004,INFY,HOLD,20
+evt-0005,WIPRO,BUY,-10
+evt-0006,,BUY,40
+evt-0007,HDFC,BUY,abc
